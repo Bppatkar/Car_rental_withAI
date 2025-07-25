@@ -7,7 +7,7 @@ import { revalidatePath } from "next/cache";
 
 /**
  * Get simplified filters for the car marketplace
- */
+ */ 
 export async function getCarFilters() {
   try {
     // Get unique makes
